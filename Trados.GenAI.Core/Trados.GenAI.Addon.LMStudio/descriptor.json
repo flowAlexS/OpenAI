@@ -1,0 +1,120 @@
+﻿{
+	"name": "LM Studio Provider",
+	"version": "1.0.0",
+	"description": "This is a sample app that uses the OpenAI provider.",
+	"extensions": [
+		{
+			"id": "lmStudio.mt.extension",
+			"name": "LM Studio Provider for Trados Cloud",
+			"extensionPointVersion": "1",
+			"extensionPointId": "lc.mtprovider",
+			"description": "A sample MT extension for testing",
+			"configuration": {
+				"endpoints": {
+					"lc.mtprovider.translate": "/v1/translate",
+					"lc.mtprovider.engines": "/v1/translation-engines"
+				},
+				"format": "bcm"
+			}
+		}
+	],
+	"standardEndpoints": {
+		"health": "/v1/health",
+		"documentation": "/v1/documentation",
+		"appLifecycle": "/v1/app-lifecycle",
+		"configuration": "/v1/configuration",
+		"configurationValidation": "/v1/configuration/validation",
+		"privacyPolicy": "/v1/privacyPolicy",
+		"termsAndConditions": "/v1/termsAndConditions"
+	},
+	"configurations": [
+		{
+			"name": "Base Uri",
+			"id": "baseUri",
+			"description": "Base Uri",
+			"defaultValue": "http://127.0.0.1:1234",
+			"dataType": "string"
+		},
+		{
+			"name": "Model",
+			"id": "model",
+			"description": "Please add the Model",
+			"defaultValue": "",
+			"dataType": "string"
+		},
+		{
+			"name": "Model Type",
+			"id": "modelType",
+			"description": "Select Model Type",
+			"optional": true,
+			"options": [ "Chat\\Completion", "Completion" ],
+			"defaultValue": "Chat\\Completion",
+			"dataType": "string"
+		},
+		{
+			"name": "System Instructions",
+			"id": "systemInstructions",
+			"description": "Please provide system prompt",
+			"optional": true,
+			"defaultValue": "You are a Translation Assistant specializing in translating or refining XML-formatted [SOURCE] content based on the [USER_PROMPT].\n\nRespond **only** with this JSON format:\n\n{ \"transUnits\": [ { \"translation\": \"...\", \"comment\": \"...\" }] }\n\nGuidelines:\n    - Determine whether the instruction is to translate the [SOURCE] or refine the existing [TRANSLATION].\n    - Reproduce XML tags exactly; never add, remove, or change tags.\n    - Output only the specified JSON schema—no explanations or comments.",
+			"dataType": "string"
+
+		},
+		{
+			"name": "User Prompt",
+			"id": "userPrompt",
+			"description": "Please provide user prompt",
+			"optional": true,
+			"defaultValue": "Translate this [SOURCE]: {source} from {sourceLanguage} to {targetLanguage} while maintaining the same tone of voice.",
+			"dataType": "string"
+		},
+		{
+			"name": "Include tags in the Translation Suggestions",
+			"id": "includeTags",
+			"description": "Includes tags in the Translation Suggestions",
+			"optional": true,
+			"defaultValue": false,
+			"dataType": "boolean"
+		},
+		{
+			"name": "Use Cached Translations",
+			"id": "useCache",
+			"description": "Use Cached Translations",
+			"optional": true,
+			"defaultValue": false,
+			"dataType": "boolean"
+		},
+		{
+			"name": "Use Context Image",
+			"id": "useContextImage",
+			"description": "Determines whether the provider should attempt to include an image with the translation request.",
+			"optional": true,
+			"defaultValue": false,
+			"dataType": "boolean"
+		},
+		{
+			"name": "Use In File System Instructions",
+			"id": "useDynamicSystemInstructions",
+			"description": "If these are present in the segment metadata, they will override the existing system instructions.",
+			"optional": true,
+			"defaultValue": false,
+			"dataType": "boolean"
+		},
+		{
+			"name": "Use In File User Prompt",
+			"id": "useDynamicUserPrompt",
+			"description": "If not present, the base/default instructions will be used.",
+			"optional": true,
+			"defaultValue": false,
+			"dataType": "boolean"
+		}
+	],
+	"releaseNotes": "Initial plugin",
+	"minimumVersion": "1.0.0",
+	"vendor": {
+		"name": "Developer Experience Team",
+		"url": "SAMPLE_VENDOR_URL",
+		"email": "sample_vendor@email.com"
+	},
+	"descriptorVersion": "1.4"
+}

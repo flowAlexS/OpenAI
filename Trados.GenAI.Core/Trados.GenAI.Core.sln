@@ -1,0 +1,82 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35527.113
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Trados.GenAI.Core", "Trados.GenAI.Core\Trados.GenAI.Core.csproj", "{77CDE0A1-AFA4-48FA-B641-70C153E6F89B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Trados.GenAI.Core.Tests", "Trados.GenAI.Core.Tests\Trados.GenAI.Core.Tests.csproj", "{AF575DB7-C102-43BB-9220-A7D482F0D327}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Trados.GenAI.OpenAI", "Trados.GenAI.OpenAI\Trados.GenAI.OpenAI.csproj", "{03EF4201-894D-4A07-A5F0-3CA362B3CDBE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Standalone_Testing", "Standalone_Testing\Standalone_Testing.csproj", "{F13C7FB4-CA27-4A81-9EAE-2EF76FF78143}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Trados.GenAI.LMStudio", "Trados.GenAI.LMStudio\Trados.GenAI.LMStudio.csproj", "{954B9ED4-C2D3-427E-BEE9-4AA66DC6DF3B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Trados.GenAI.Addon.OpenAI", "Trados.GenAI.Addon.OpenAI\Trados.GenAI.Addon.OpenAI.csproj", "{34DD4030-1066-4CAF-B0A6-90D4447ABAE0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Trados.GenAI.Addon.LMStudio", "Trados.GenAI.Addon.LMStudio\Trados.GenAI.Addon.LMStudio.csproj", "{0AB2963B-E80A-4296-943A-54CD145B60E1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Trados.GenAI.BCMProcessor", "Trados.GenAI.BCMProcessor\Trados.GenAI.BCMProcessor.csproj", "{52F30C2B-DE7E-46E1-889E-3B0AC1768694}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Trados.GenAI.LLMCoordinator", "Trados.GenAI.LLMCoordinator\Trados.GenAI.LLMCoordinator.csproj", "{D66CC566-21FA-4558-83B4-F8985110AFD7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Trados.GenAI.Storage", "Trados.GenAI.Storage\Trados.GenAI.Storage.csproj", "{86B78D58-B219-469D-9C41-5198BF709EE3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rws.LC.UISampleApp", "Rws.LC.UISampleApp\Rws.LC.UISampleApp.csproj", "{934BC87D-B505-4AB7-AA98-A64604ED388C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{77CDE0A1-AFA4-48FA-B641-70C153E6F89B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{77CDE0A1-AFA4-48FA-B641-70C153E6F89B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{77CDE0A1-AFA4-48FA-B641-70C153E6F89B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{77CDE0A1-AFA4-48FA-B641-70C153E6F89B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AF575DB7-C102-43BB-9220-A7D482F0D327}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AF575DB7-C102-43BB-9220-A7D482F0D327}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AF575DB7-C102-43BB-9220-A7D482F0D327}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AF575DB7-C102-43BB-9220-A7D482F0D327}.Release|Any CPU.Build.0 = Release|Any CPU
+		{03EF4201-894D-4A07-A5F0-3CA362B3CDBE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{03EF4201-894D-4A07-A5F0-3CA362B3CDBE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{03EF4201-894D-4A07-A5F0-3CA362B3CDBE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{03EF4201-894D-4A07-A5F0-3CA362B3CDBE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F13C7FB4-CA27-4A81-9EAE-2EF76FF78143}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F13C7FB4-CA27-4A81-9EAE-2EF76FF78143}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F13C7FB4-CA27-4A81-9EAE-2EF76FF78143}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F13C7FB4-CA27-4A81-9EAE-2EF76FF78143}.Release|Any CPU.Build.0 = Release|Any CPU
+		{954B9ED4-C2D3-427E-BEE9-4AA66DC6DF3B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{954B9ED4-C2D3-427E-BEE9-4AA66DC6DF3B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{954B9ED4-C2D3-427E-BEE9-4AA66DC6DF3B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{954B9ED4-C2D3-427E-BEE9-4AA66DC6DF3B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{34DD4030-1066-4CAF-B0A6-90D4447ABAE0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{34DD4030-1066-4CAF-B0A6-90D4447ABAE0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{34DD4030-1066-4CAF-B0A6-90D4447ABAE0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{34DD4030-1066-4CAF-B0A6-90D4447ABAE0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0AB2963B-E80A-4296-943A-54CD145B60E1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0AB2963B-E80A-4296-943A-54CD145B60E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0AB2963B-E80A-4296-943A-54CD145B60E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0AB2963B-E80A-4296-943A-54CD145B60E1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{52F30C2B-DE7E-46E1-889E-3B0AC1768694}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{52F30C2B-DE7E-46E1-889E-3B0AC1768694}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{52F30C2B-DE7E-46E1-889E-3B0AC1768694}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{52F30C2B-DE7E-46E1-889E-3B0AC1768694}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D66CC566-21FA-4558-83B4-F8985110AFD7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D66CC566-21FA-4558-83B4-F8985110AFD7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D66CC566-21FA-4558-83B4-F8985110AFD7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D66CC566-21FA-4558-83B4-F8985110AFD7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{86B78D58-B219-469D-9C41-5198BF709EE3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{86B78D58-B219-469D-9C41-5198BF709EE3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{86B78D58-B219-469D-9C41-5198BF709EE3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{86B78D58-B219-469D-9C41-5198BF709EE3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{934BC87D-B505-4AB7-AA98-A64604ED388C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{934BC87D-B505-4AB7-AA98-A64604ED388C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{934BC87D-B505-4AB7-AA98-A64604ED388C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{934BC87D-B505-4AB7-AA98-A64604ED388C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

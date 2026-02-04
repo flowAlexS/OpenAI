@@ -1,0 +1,42 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
+  </PropertyGroup>
+
+	<PropertyGroup>
+		<NoWarn>$(NoWarn);OPENAI001</NoWarn>
+	</PropertyGroup>
+	
+  <ItemGroup>
+	<PackageReference Include="Google.Cloud.Translate.V3" Version="3.0.0" />
+	<PackageReference Include="OpenAI" Version="2.7.0" />
+	<PackageReference Include="Rws.LanguageCloud.Authentication.Jws" Version="1.0.4" />
+    <PackageReference Include="Microsoft.VisualStudio.Azure.Containers.Tools.Targets" Version="1.14.0" />
+	<PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="8.0.2" />
+    <PackageReference Include="MongoDB.Driver" Version="2.23.1" />
+    <PackageReference Include="NLog" Version="5.2.8" />
+    <PackageReference Include="NLog.Web.AspNetCore" Version="5.3.8" />
+    <PackageReference Include="Sdl.Core.Bcm.API" Version="2.0.2" />
+  </ItemGroup>
+	
+  <ItemGroup>
+    <ProjectReference Include="..\Trados.GenAI.BCMProcessor\Trados.GenAI.BCMProcessor.csproj" />
+    <ProjectReference Include="..\Trados.GenAI.Core\Trados.GenAI.Core.csproj" />
+    <ProjectReference Include="..\Trados.GenAI.LLMCoordinator\Trados.GenAI.LLMCoordinator.csproj" />
+    <ProjectReference Include="..\Trados.GenAI.LMStudio\Trados.GenAI.LMStudio.csproj" />
+    <ProjectReference Include="..\Trados.GenAI.Storage\Trados.GenAI.Storage.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="Resources\privacyPolicy.html">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Resources\termsAndConditions.html">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
+
+</Project>

@@ -1,0 +1,19 @@
+[
+  {
+    "Name": "New Profile",
+    "Projects": [
+      {
+        "Path": "Trados.GenAI.Addon.LMStudio\\Trados.GenAI.Addon.LMStudio.csproj",
+        "Action": "Start"
+      },
+      {
+        "Path": "Trados.GenAI.Addon.OpenAI\\Trados.GenAI.Addon.OpenAI.csproj",
+        "Action": "Start"
+      },
+      {
+        "Path": "Rws.LC.UISampleApp\\Rws.LC.UISampleApp.csproj",
+        "Action": "Start"
+      }
+    ]
+  }
+]

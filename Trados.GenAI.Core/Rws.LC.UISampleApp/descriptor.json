@@ -1,0 +1,37 @@
+﻿{
+	"name": "LLM History Add-on",
+	"version": "1.0.0",
+	"description": "Provides UI extensibility for viewing LLM interaction history.",
+	"extensions": [
+		{
+			"id": "LLMHistoryHub",
+			"extensionPointId": "lc.ui",
+			"name": "UI Extensibility App",
+			"description": "Provides UI extensibility for viewing LLM interaction history.",
+			"extensionPointVersion": "1",
+			"configuration": {
+				"scriptPath": "/api/files/frontend/dist/my-ui-extension-script.js",
+				"endpoints": {}
+			}
+		}
+	],
+	"standardEndpoints": {
+		"health": "/v1/health",
+		"documentation": "/v1/documentation",
+		"appLifecycle": "/v1/app-lifecycle",
+		"configuration": "/v1/configuration",
+		"configurationValidation": "/v1/configuration/validation",
+		"privacyPolicy": "/v1/privacyPolicy",
+		"termsAndConditions": "/v1/termsAndConditions"
+	},
+	"configurations": [
+	],
+	"releaseNotes": "Initial plugin",
+	"minimumVersion": "1.0.0",
+	"vendor": {
+		"name": "Developer Experience Team",
+		"url": "SAMPLE_VENDOR_URL",
+		"email": "sample_vendor@email.com"
+	},
+	"descriptorVersion": "1.4"
+}
