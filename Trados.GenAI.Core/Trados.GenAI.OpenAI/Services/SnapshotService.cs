@@ -54,7 +54,7 @@ namespace Trados.GenAI.OpenAI.Services
 
                 snapshotBytes = await page.ScreenshotDataAsync(new ScreenshotOptions
                 {
-                    FullPage = false,
+                    FullPage = true,
                     Type = ScreenshotType.Png
                 });
 

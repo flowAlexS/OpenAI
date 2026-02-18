@@ -100,7 +100,6 @@ namespace Trados.GenAI.Addon.OpenAI.Controllers
             // to resources this service uses, like: DB, message queues, storage etc.
             // Any response besides 200 Ok, will be considered as failure. As a suggestion use "return StatusCode(500);"
             // when you need to signal that the service is having health issues.
-            return Ok();
             var isHealthy = _healthReporter.IsServiceHealthy();
             if (isHealthy)
             {
