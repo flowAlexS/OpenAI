@@ -136,6 +136,8 @@ namespace Trados.GenAI.Addon.OpenAI.Controllers
             var tenantId = HttpContext.User?.GetTenantId();
 
             var lifecycle = JsonSerializer.Deserialize<AppLifecycleEvent>(payload, JsonSettings.Default());
+            lifecycle.Id = AppLifecycleEventEnum.UNREGISTERED;
+
             switch (lifecycle.Id)
             {
                 case AppLifecycleEventEnum.REGISTERED:
