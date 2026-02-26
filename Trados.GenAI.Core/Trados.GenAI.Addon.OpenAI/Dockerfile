@@ -6,12 +6,18 @@ EXPOSE 8080
 # Build image
 FROM mcr.microsoft.com/dotnet/sdk:8.0-alpine AS build
 WORKDIR /src
-COPY ["Trados.GenAI.Addon.OpenAI/Trados.GenAI.Addon.OpenAI.csproj", "Trados.GenAI.Addon.OpenAI/"]
-RUN dotnet restore "Trados.GenAI.Addon.OpenAI/Trados.GenAI.Addon.OpenAI.csproj"
-COPY . .
-WORKDIR "/src/Trados.GenAI.Addon.OpenAI"
+
+# Copy only the project file first, relative to Dockerfile
+COPY ./Trados.GenAI.Addon.OpenAI.csproj ./
+RUN dotnet restore "Trados.GenAI.Addon.OpenAI.csproj"
+
+# Copy everything else (relative to Dockerfile)
+COPY . . 
+
+# Build the project
 RUN dotnet build "Trados.GenAI.Addon.OpenAI.csproj" -c Release -o /app/build
 
+# Publish
 FROM build AS publish
 RUN dotnet publish "Trados.GenAI.Addon.OpenAI.csproj" -c Release -o /app/publish
 
