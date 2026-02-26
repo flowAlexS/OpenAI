@@ -6,19 +6,14 @@ EXPOSE 8080
 # Build image
 FROM mcr.microsoft.com/dotnet/sdk:8.0-alpine AS build
 WORKDIR /src
-
-# Copy the entire repo so that all project references are available
+COPY ["Trados.GenAI.Addon.OpenAI/Trados.GenAI.Addon.OpenAI.csproj", "Trados.GenAI.Addon.OpenAI/"]
+RUN dotnet restore "Trados.GenAI.Addon.OpenAI/Trados.GenAI.Addon.OpenAI.csproj"
 COPY . .
+WORKDIR "/src/Trados.GenAI.Addon.OpenAI"
+RUN dotnet build "Trados.GenAI.Addon.OpenAI.csproj" -c Release -o /app/build
 
-# Restore dependencies for Addon.OpenAI project (or solution)
-RUN dotnet restore "Trados.GenAI.Core/Trados.GenAI.Addon.OpenAI/Trados.GenAI.Addon.OpenAI.csproj"
-
-# Build the Addon.OpenAI project
-RUN dotnet build "Trados.GenAI.Core/Trados.GenAI.Addon.OpenAI/Trados.GenAI.Addon.OpenAI.csproj" -c Release -o /app/build
-
-# Publish
 FROM build AS publish
-RUN dotnet publish "Trados.GenAI.Core/Trados.GenAI.Addon.OpenAI/Trados.GenAI.Addon.OpenAI.csproj" -c Release -o /app/publish
+RUN dotnet publish "Trados.GenAI.Addon.OpenAI.csproj" -c Release -o /app/publish
 
 # Final image
 FROM base AS final
