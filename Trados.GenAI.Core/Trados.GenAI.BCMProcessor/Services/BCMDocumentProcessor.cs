@@ -196,7 +196,7 @@ namespace Trados.GenAI.BCMProcessor.Services
         {
             if (_file?.ParagraphUnits.Count == 1)
             {
-                paragraphUnit.Id = null;
+                //paragraphUnit.Id = null;
             }
 
             var sourceParagraph = paragraphUnit.Source as Paragraph;

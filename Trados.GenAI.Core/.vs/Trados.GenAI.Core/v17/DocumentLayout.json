@@ -3,12 +3,28 @@
   "WorkspaceRootPath": "C:\\Users\\aflorescu\\MyCode\\InContext_AI\\OpenAI\\Trados.GenAI.Core\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{34DD4030-1066-4CAF-B0A6-90D4447ABAE0}|Trados.GenAI.Addon.OpenAI\\Trados.GenAI.Addon.OpenAI.csproj|c:\\users\\aflorescu\\mycode\\incontext_ai\\openai\\trados.genai.core\\trados.genai.addon.openai\\controllers\\standardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{34DD4030-1066-4CAF-B0A6-90D4447ABAE0}|Trados.GenAI.Addon.OpenAI\\Trados.GenAI.Addon.OpenAI.csproj|solutionrelative:trados.genai.addon.openai\\controllers\\standardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{34DD4030-1066-4CAF-B0A6-90D4447ABAE0}|Trados.GenAI.Addon.OpenAI\\Trados.GenAI.Addon.OpenAI.csproj|c:\\users\\aflorescu\\mycode\\incontext_ai\\openai\\trados.genai.core\\trados.genai.addon.openai\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{34DD4030-1066-4CAF-B0A6-90D4447ABAE0}|Trados.GenAI.Addon.OpenAI\\Trados.GenAI.Addon.OpenAI.csproj|solutionrelative:trados.genai.addon.openai\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{34DD4030-1066-4CAF-B0A6-90D4447ABAE0}|Trados.GenAI.Addon.OpenAI\\Trados.GenAI.Addon.OpenAI.csproj|c:\\users\\aflorescu\\mycode\\incontext_ai\\openai\\trados.genai.core\\trados.genai.addon.openai\\controllers\\translationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{34DD4030-1066-4CAF-B0A6-90D4447ABAE0}|Trados.GenAI.Addon.OpenAI\\Trados.GenAI.Addon.OpenAI.csproj|solutionrelative:trados.genai.addon.openai\\controllers\\translationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{34DD4030-1066-4CAF-B0A6-90D4447ABAE0}|Trados.GenAI.Addon.OpenAI\\Trados.GenAI.Addon.OpenAI.csproj|c:\\users\\aflorescu\\mycode\\incontext_ai\\openai\\trados.genai.core\\trados.genai.addon.openai\\trados.genai.addon.openai.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{34DD4030-1066-4CAF-B0A6-90D4447ABAE0}|Trados.GenAI.Addon.OpenAI\\Trados.GenAI.Addon.OpenAI.csproj|solutionrelative:trados.genai.addon.openai\\trados.genai.addon.openai.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{34DD4030-1066-4CAF-B0A6-90D4447ABAE0}|Trados.GenAI.Addon.OpenAI\\Trados.GenAI.Addon.OpenAI.csproj|c:\\users\\aflorescu\\mycode\\incontext_ai\\openai\\trados.genai.core\\trados.genai.addon.openai\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{34DD4030-1066-4CAF-B0A6-90D4447ABAE0}|Trados.GenAI.Addon.OpenAI\\Trados.GenAI.Addon.OpenAI.csproj|solutionrelative:trados.genai.addon.openai\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{34DD4030-1066-4CAF-B0A6-90D4447ABAE0}|Trados.GenAI.Addon.OpenAI\\Trados.GenAI.Addon.OpenAI.csproj|c:\\users\\aflorescu\\mycode\\incontext_ai\\openai\\trados.genai.core\\trados.genai.addon.openai\\descriptor.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{34DD4030-1066-4CAF-B0A6-90D4447ABAE0}|Trados.GenAI.Addon.OpenAI\\Trados.GenAI.Addon.OpenAI.csproj|solutionrelative:trados.genai.addon.openai\\descriptor.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{34DD4030-1066-4CAF-B0A6-90D4447ABAE0}|Trados.GenAI.Addon.OpenAI\\Trados.GenAI.Addon.OpenAI.csproj|c:\\users\\aflorescu\\mycode\\incontext_ai\\openai\\trados.genai.core\\trados.genai.addon.openai\\controllers\\standardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{34DD4030-1066-4CAF-B0A6-90D4447ABAE0}|Trados.GenAI.Addon.OpenAI\\Trados.GenAI.Addon.OpenAI.csproj|solutionrelative:trados.genai.addon.openai\\controllers\\standardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{52F30C2B-DE7E-46E1-889E-3B0AC1768694}|Trados.GenAI.BCMProcessor\\Trados.GenAI.BCMProcessor.csproj|c:\\users\\aflorescu\\mycode\\incontext_ai\\openai\\trados.genai.core\\trados.genai.bcmprocessor\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -17,18 +33,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{34DD4030-1066-4CAF-B0A6-90D4447ABAE0}|Trados.GenAI.Addon.OpenAI\\Trados.GenAI.Addon.OpenAI.csproj|c:\\users\\aflorescu\\mycode\\incontext_ai\\openai\\trados.genai.core\\trados.genai.addon.openai\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{34DD4030-1066-4CAF-B0A6-90D4447ABAE0}|Trados.GenAI.Addon.OpenAI\\Trados.GenAI.Addon.OpenAI.csproj|solutionrelative:trados.genai.addon.openai\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{34DD4030-1066-4CAF-B0A6-90D4447ABAE0}|Trados.GenAI.Addon.OpenAI\\Trados.GenAI.Addon.OpenAI.csproj|c:\\users\\aflorescu\\mycode\\incontext_ai\\openai\\trados.genai.core\\trados.genai.addon.openai\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{34DD4030-1066-4CAF-B0A6-90D4447ABAE0}|Trados.GenAI.Addon.OpenAI\\Trados.GenAI.Addon.OpenAI.csproj|solutionrelative:trados.genai.addon.openai\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{34DD4030-1066-4CAF-B0A6-90D4447ABAE0}|Trados.GenAI.Addon.OpenAI\\Trados.GenAI.Addon.OpenAI.csproj|c:\\users\\aflorescu\\mycode\\incontext_ai\\openai\\trados.genai.core\\trados.genai.addon.openai\\trados.genai.addon.openai.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{34DD4030-1066-4CAF-B0A6-90D4447ABAE0}|Trados.GenAI.Addon.OpenAI\\Trados.GenAI.Addon.OpenAI.csproj|solutionrelative:trados.genai.addon.openai\\trados.genai.addon.openai.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{34DD4030-1066-4CAF-B0A6-90D4447ABAE0}|Trados.GenAI.Addon.OpenAI\\Trados.GenAI.Addon.OpenAI.csproj|c:\\users\\aflorescu\\mycode\\incontext_ai\\openai\\trados.genai.core\\trados.genai.addon.openai\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{34DD4030-1066-4CAF-B0A6-90D4447ABAE0}|Trados.GenAI.Addon.OpenAI\\Trados.GenAI.Addon.OpenAI.csproj|solutionrelative:trados.genai.addon.openai\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,7 +42,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Bookmark",
@@ -62,33 +66,46 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
+              "Title": "TranslationController.cs",
+              "DocumentMoniker": "C:\\Users\\aflorescu\\MyCode\\InContext_AI\\OpenAI\\Trados.GenAI.Core\\Trados.GenAI.Addon.OpenAI\\Controllers\\TranslationController.cs",
+              "RelativeDocumentMoniker": "Trados.GenAI.Addon.OpenAI\\Controllers\\TranslationController.cs",
+              "ToolTip": "C:\\Users\\aflorescu\\MyCode\\InContext_AI\\OpenAI\\Trados.GenAI.Core\\Trados.GenAI.Addon.OpenAI\\Controllers\\TranslationController.cs",
+              "RelativeToolTip": "Trados.GenAI.Addon.OpenAI\\Controllers\\TranslationController.cs",
+              "ViewState": "AgIAAC8AAAAAAAAAAAAAAA4AAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-26T11:35:03.292Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "StandardController.cs",
               "DocumentMoniker": "C:\\Users\\aflorescu\\MyCode\\InContext_AI\\OpenAI\\Trados.GenAI.Core\\Trados.GenAI.Addon.OpenAI\\Controllers\\StandardController.cs",
               "RelativeDocumentMoniker": "Trados.GenAI.Addon.OpenAI\\Controllers\\StandardController.cs",
               "ToolTip": "C:\\Users\\aflorescu\\MyCode\\InContext_AI\\OpenAI\\Trados.GenAI.Core\\Trados.GenAI.Addon.OpenAI\\Controllers\\StandardController.cs",
               "RelativeToolTip": "Trados.GenAI.Addon.OpenAI\\Controllers\\StandardController.cs",
-              "ViewState": "AgIAAJUAAAAAAAAAAAAAAIoAAAA+AAAAAAAAAA==",
+              "ViewState": "AgIAAGkAAAAAAAAAAAAAAHcAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-02-26T09:55:38.122Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 0,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\aflorescu\\MyCode\\InContext_AI\\OpenAI\\Trados.GenAI.Core\\Trados.GenAI.Addon.OpenAI\\appsettings.json",
               "RelativeDocumentMoniker": "Trados.GenAI.Addon.OpenAI\\appsettings.json",
               "ToolTip": "C:\\Users\\aflorescu\\MyCode\\InContext_AI\\OpenAI\\Trados.GenAI.Core\\Trados.GenAI.Addon.OpenAI\\appsettings.json",
               "RelativeToolTip": "Trados.GenAI.Addon.OpenAI\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAuAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
               "WhenOpened": "2026-02-26T09:09:34.478Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "descriptor.json",
               "DocumentMoniker": "C:\\Users\\aflorescu\\MyCode\\InContext_AI\\OpenAI\\Trados.GenAI.Core\\Trados.GenAI.Addon.OpenAI\\descriptor.json",
               "RelativeDocumentMoniker": "Trados.GenAI.Addon.OpenAI\\descriptor.json",
@@ -101,7 +118,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 6,
               "Title": "Class1.cs",
               "DocumentMoniker": "C:\\Users\\aflorescu\\MyCode\\InContext_AI\\OpenAI\\Trados.GenAI.Core\\Trados.GenAI.BCMProcessor\\Class1.cs",
               "RelativeDocumentMoniker": "Trados.GenAI.BCMProcessor\\Class1.cs",
@@ -114,7 +131,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 7,
               "Title": "launchSettings.json",
               "DocumentMoniker": "C:\\Users\\aflorescu\\MyCode\\InContext_AI\\OpenAI\\Trados.GenAI.Core\\Trados.GenAI.Addon.OpenAI\\Properties\\launchSettings.json",
               "RelativeDocumentMoniker": "Trados.GenAI.Addon.OpenAI\\Properties\\launchSettings.json",
@@ -127,20 +144,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 3,
               "Title": "Dockerfile",
               "DocumentMoniker": "C:\\Users\\aflorescu\\MyCode\\InContext_AI\\OpenAI\\Trados.GenAI.Core\\Trados.GenAI.Addon.OpenAI\\Dockerfile",
               "RelativeDocumentMoniker": "Trados.GenAI.Addon.OpenAI\\Dockerfile",
               "ToolTip": "C:\\Users\\aflorescu\\MyCode\\InContext_AI\\OpenAI\\Trados.GenAI.Core\\Trados.GenAI.Addon.OpenAI\\Dockerfile",
               "RelativeToolTip": "Trados.GenAI.Addon.OpenAI\\Dockerfile",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAUwBcAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
               "WhenOpened": "2026-02-04T08:50:01.034Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 2,
               "Title": "Trados.GenAI.Addon.OpenAI.csproj",
               "DocumentMoniker": "C:\\Users\\aflorescu\\MyCode\\InContext_AI\\OpenAI\\Trados.GenAI.Core\\Trados.GenAI.Addon.OpenAI\\Trados.GenAI.Addon.OpenAI.csproj",
               "RelativeDocumentMoniker": "Trados.GenAI.Addon.OpenAI\\Trados.GenAI.Addon.OpenAI.csproj",

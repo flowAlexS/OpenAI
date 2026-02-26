@@ -55,7 +55,7 @@ namespace Trados.GenAI.Addon.OpenAI.Controllers
             _logger.LogInformation("Gettings translations");
             var tenantId = HttpContext.User?.GetTenantId();
 
-            _logger.LogError($"Trace ID: {traceId}");
+            //_logger.LogError($"Trace ID: {traceId}");
 
             var openAISettings = await _settingsService.GetSettings(tenantId);
 
